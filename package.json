@@ -16,11 +16,15 @@
     "@astrojs/rss": "^3.0.0",
     "@astrojs/sitemap": "^3.0.1",
     "@astrojs/tailwind": "^5.0.3",
+    "@astrojs/vue": "^4.5.2",
     "astro": "^4.0.2",
+    "axios": "^1.7.7",
     "daisyui": "^4.4.10",
     "dayjs": "^1.11.9",
+    "dotenv": "^16.4.5",
     "sharp": "^0.32.6",
-    "tailwindcss": "^3.3.5"
+    "tailwindcss": "^3.3.5",
+    "vue": "^3.5.11"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10"
