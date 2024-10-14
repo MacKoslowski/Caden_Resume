@@ -39,12 +39,8 @@ export default {
     };
   },
   mounted() {
-    console.log("are we even mounted");
-    const apiKey = "AIzaSyDiLrfroGnsmk4Rmp9JdbhsovrGGK-wLHg";
+    const apiKey = "AIzaSyASxw8DT8Gt7z6bIbG5ixw6LmJw6_x7YF8";
     const folderId = "1TOPTFSZdPXjXspSu45tSK40Hn8cinbi4";
-
-    console.log("API Key:", apiKey);
-    console.log("Folder ID:", folderId);
 
     const url = `https://www.googleapis.com/drive/v3/files?q='${folderId}'+in+parents&key=${apiKey}`;
 

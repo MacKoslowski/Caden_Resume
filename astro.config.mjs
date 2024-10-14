@@ -6,6 +6,8 @@ import { defineConfig } from "astro/config";
 import vue from "@astrojs/vue";
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astrofy-template.netlify.app",
+  // site: "",
   integrations: [mdx(), sitemap(), tailwind(), vue()],
+  //site: "https://mackoslowski.github.io",
+  // base: "Caden_Resume",
 });
