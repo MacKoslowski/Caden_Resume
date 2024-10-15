@@ -39,10 +39,10 @@ export default {
     };
   },
   mounted() {
-    const apiKey = "AIzaSyASxw8DT8Gt7z6bIbG5ixw6LmJw6_x7YF8";
+    //const apiKey = "AIzaSyASxw8DT8Gt7z6bIbG5ixw6LmJw6_x7YF8";
     const folderId = "1TOPTFSZdPXjXspSu45tSK40Hn8cinbi4";
 
-    const url = `https://www.googleapis.com/drive/v3/files?q='${folderId}'+in+parents&key=${apiKey}`;
+    const url = `https://www.googleapis.com/drive/v3/files?q='${folderId}'+in+parents`; //&key=${apiKey}
 
     axios
       .get(url)
