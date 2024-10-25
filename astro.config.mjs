@@ -8,6 +8,6 @@ import vue from "@astrojs/vue";
 export default defineConfig({
   // site: "",
   integrations: [mdx(), sitemap(), tailwind(), vue()],
-  //site: "https://mackoslowski.github.io",
+  site: "https://mackoslowski.github.io",
   // base: "Caden_Resume",
 });
