@@ -11,8 +11,8 @@
         <a href="Everyday_Flowers_July.pdf" target="_blank">Everyday Flowers</a>
       </li>
       <li>
-        <a href="Jewlery_Lab_Diamonds.pdf" target="_blank"
-          >Jewlery Lab Diamonds</a
+        <a href="Jewelry_Lab_Diamonds.pdf" target="_blank"
+          >Jewelry Lab Diamonds</a
         >
       </li>
     </ul>
